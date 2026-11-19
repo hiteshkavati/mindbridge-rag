@@ -1,6 +1,7 @@
 ---
 title: Setting boundaries and pushing back on workload
 topics: work, boundaries, workload, manager
+keywords: say no, manager, boss, overloaded, late night messages, after hours, overtime, workload
 ---
 ## Why it feels hard
 Saying no at work can feel risky, especially early in your career or in a small team. The trick is to frame it as a trade-off, not a refusal.

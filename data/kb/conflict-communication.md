@@ -1,6 +1,7 @@
 ---
 title: Talking through conflict with a partner or friend
 topics: relationships, conflict, communication, partner
+keywords: fighting, argument, girlfriend, boyfriend, husband, wife, spouse, relationship problems, quarrel
 ---
 ## Choose your moment
 Raise things when both of you are calm and not rushed, not in the middle of an argument or late at night. Say up front what you want: "Can we talk about how we split chores? I want us both to feel it is fair."

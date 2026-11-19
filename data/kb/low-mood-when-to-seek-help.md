@@ -1,6 +1,7 @@
 ---
 title: Low mood, and when it is worth getting help
 topics: low mood, depression, professional help
+keywords: sad, down, depressed, two weeks, lost interest, see a doctor, empty
 ---
 ## Normal sadness and something more persistent
 Everyone has low days, especially after a setback. It is worth taking seriously when low mood lasts most of the day, nearly every day, for two weeks or more, or when it comes with several of these: losing interest in things you usually enjoy, changes in sleep or appetite, constant tiredness, difficulty concentrating, feeling worthless or guilty, or withdrawing from people.

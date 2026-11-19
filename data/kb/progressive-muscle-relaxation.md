@@ -1,6 +1,7 @@
 ---
 title: Progressive muscle relaxation
 topics: relaxation, stress, tension, sleep
+keywords: tense muscles, relax body, tension, tight shoulders, body relaxation, stress relief
 ---
 ## What it is
 Progressive muscle relaxation (PMR) means tensing and then releasing muscle groups in sequence. The contrast makes tension easier to notice, and releasing it signals the body that it can settle.

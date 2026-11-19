@@ -1,6 +1,7 @@
 ---
 title: Racing thoughts when you are trying to sleep
 topics: sleep, overthinking, anxiety
+keywords: lying in bed, mind won't switch off, replaying, awake at night, overthinking at night
 ---
 ## Why nights feel worse
 At night there are fewer distractions, so unfinished worries get louder. Trying harder to sleep usually makes it worse because effort raises alertness.

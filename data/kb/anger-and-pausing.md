@@ -1,6 +1,7 @@
 ---
 title: Dealing with anger and the urge to snap
 topics: anger, irritability, conflict, self-control
+keywords: temper, irritated, snapping, rage, furious, shouting, short fuse, lose control
 ---
 ## Anger is a signal
 Anger is often a cover for something underneath: hurt, fear, feeling disrespected or being stretched too thin. It is not the problem in itself; what you do with it is.

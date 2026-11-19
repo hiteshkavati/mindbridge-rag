@@ -1,6 +1,7 @@
 ---
 title: Loneliness and rebuilding connection
 topics: loneliness, social, new city, friendship
+keywords: no friends, lonely, new city, isolated, make friends, alone, homesick
 ---
 ## It is common and it is not a flaw
 Loneliness is about the gap between the connection you have and the connection you want. It is especially common after moving to a new city, changing jobs or finishing college, when daily contact with people disappears.

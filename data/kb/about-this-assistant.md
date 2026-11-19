@@ -1,6 +1,7 @@
 ---
 title: What this assistant is and is not
 topics: assistant, scope, privacy, limits, emergencies
+keywords: real person, therapist, bot, private, privacy, confidential, who are you, human
 ---
 ## What it is
 MindBridge is an information assistant that answers questions about everyday stress, mood, sleep, work and relationships. Its answers are based on a small library of written self-help material, and it shows which passages it used.

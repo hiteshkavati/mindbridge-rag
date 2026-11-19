@@ -1,6 +1,7 @@
 ---
 title: Managing exam anxiety
 topics: students, exams, anxiety, performance
+keywords: exams, mind goes blank, studying, test, semester, revision, marks, results
 ---
 ## Some nerves help
 A moderate level of arousal sharpens focus. The problem starts when worry gets so strong that you cannot concentrate or your mind goes blank.

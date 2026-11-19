@@ -1,6 +1,7 @@
 ---
 title: Daily basics that support mood and energy
 topics: self-care, routine, exercise, sleep, mood
+keywords: daily habits, routine, exercise, sunlight, walk, energy low, feel better, healthy habits
 ---
 ## Why basics matter
 Sleep, movement, food and light shape mood and stress more than most people expect. They are not a cure for anxiety or depression, but neglecting them makes everything harder.

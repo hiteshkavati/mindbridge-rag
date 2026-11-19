@@ -1,6 +1,7 @@
 ---
 title: Scheduled worry time and thought dumping
 topics: anxiety, overthinking, worry
+keywords: overthinking, worrying all day, can't stop worrying, postpone worry, anxious thoughts
 ---
 ## The idea
 Trying to stop worrying usually backfires. A more workable approach is to give worry a container: fifteen to twenty minutes at a set time each day when you are allowed to worry as much as you like.

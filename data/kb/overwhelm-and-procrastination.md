@@ -1,6 +1,7 @@
 ---
 title: Overwhelm and procrastination
 topics: procrastination, overwhelm, productivity, motivation
+keywords: putting off, procrastinating, avoiding, deadline, too many tasks, freeze, guilty
 ---
 ## What is really going on
 Procrastination is rarely laziness. It is usually a way of avoiding an uncomfortable feeling, such as fear of doing it badly, boredom or confusion about where to start. Giving yourself a hard time tends to add to the discomfort and makes avoidance more likely.

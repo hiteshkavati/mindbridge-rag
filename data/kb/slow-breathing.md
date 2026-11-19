@@ -1,6 +1,7 @@
 ---
 title: Slow breathing and box breathing
 topics: anxiety, panic, stress
+keywords: breathing exercise, breathe, tight chest, calm down, hold breath
 ---
 ## Why slow breathing helps
 When you are anxious your breathing gets quick and shallow, which makes the physical sensations (tight chest, dizziness, tingling) stronger. A long, slow exhale nudges your body toward its calming response. It does not remove the cause of stress, but it can lower the intensity enough to think clearly.

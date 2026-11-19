@@ -1,6 +1,7 @@
 ---
 title: Supporting a friend who is struggling
 topics: helping others, friend, support, third party
+keywords: friend depressed, how to help, someone struggling, worried about friend, what to say, comfort
 ---
 ## Start by listening
 You do not need to fix anything. Find a private moment, say what you have noticed ("You have seemed really down lately, and I am worried about you"), and let them talk. Avoid rushing to advice, comparing with your own experience, or saying "just think positive".

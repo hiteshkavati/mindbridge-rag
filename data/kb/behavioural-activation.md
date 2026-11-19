@@ -1,6 +1,7 @@
 ---
 title: Behavioural activation for low mood
 topics: low mood, motivation, depression
+keywords: no motivation, unmotivated, can't get out of bed, depressed, nothing feels fun, low energy
 ---
 ## The loop
 When mood drops, motivation drops, so you do less. Doing less removes the small rewards that lift mood, and mood drops further. Behavioural activation breaks the loop from the action side: you act first and let motivation follow, rather than waiting to feel like it.

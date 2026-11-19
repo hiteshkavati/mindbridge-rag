@@ -1,6 +1,7 @@
 ---
 title: Nerves before presentations and interviews
 topics: performance anxiety, public speaking, interviews, presentations
+keywords: presentation, public speaking, hands shake, nervous, interview nerves, stage fright, speech
 ---
 ## Nerves are normal
 A pounding heart and dry mouth before speaking in public are the same arousal that powers a good performance. The aim is not to remove it but to use it.

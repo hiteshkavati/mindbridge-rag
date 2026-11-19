@@ -1,6 +1,7 @@
 ---
 title: Coping with job search stress and rejection
 topics: work, job search, rejection, uncertainty
+keywords: rejection, rejected, interviews, unemployed, job hunting, laid off, no offers, resume
 ---
 ## Rejection is information, not a verdict
 Most applications get no reply, and many good candidates are rejected for reasons unrelated to ability: timing, an internal candidate, a budget freeze. Reading each rejection as a judgement on your worth is a thinking trap that drains energy.

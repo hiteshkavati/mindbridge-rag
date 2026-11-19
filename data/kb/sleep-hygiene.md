@@ -1,6 +1,7 @@
 ---
 title: Sleep habits that actually help
 topics: sleep, insomnia, routine
+keywords: insomnia, can't sleep, sleep schedule, sleep routine, coffee, caffeine, bedtime, tired
 ---
 ## Anchor your wake-up time
 A consistent wake-up time, including weekends, does more for sleep than any single trick. Get daylight within an hour of waking if you can.

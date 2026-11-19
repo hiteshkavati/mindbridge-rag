@@ -1,6 +1,7 @@
 ---
 title: Self-compassion and the inner critic
 topics: self-esteem, self-criticism, confidence, kindness
+keywords: hard on myself, inner critic, self-criticism, self esteem, confidence, not good enough
 ---
 ## What it is
 Self-compassion means treating yourself the way you would treat a friend in the same situation. Researchers who study it, such as Kristin Neff, describe three parts: noticing your pain without drowning in it, remembering that struggle is part of being human, and responding with kindness instead of attack.

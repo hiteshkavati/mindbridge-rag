@@ -1,6 +1,7 @@
 ---
 title: Grounding with the 5-4-3-2-1 exercise
 topics: anxiety, panic, overwhelm
+keywords: calm down, spiralling, freaking out, senses, present moment, mindfulness
 ---
 ## What it does
 Grounding exercises pull your attention out of racing thoughts and into what your senses are picking up right now. The 5-4-3-2-1 version is popular because it needs no equipment and can be done anywhere, including on a bus or at your desk.

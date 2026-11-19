@@ -1,6 +1,7 @@
 ---
 title: Perfectionism and the fear of failing
 topics: perfectionism, high standards, fear of failure, procrastination
+keywords: perfect, can't submit, over-polish, fear of failure, high standards, redo, never good enough
 ---
 ## High standards versus perfectionism
 High standards motivate you and allow some mistakes. Perfectionism ties your worth to flawless results, so a small error feels like a personal failure. It often leads to endless checking, delay in starting or finishing, and burnout.

@@ -1,6 +1,7 @@
 ---
 title: Social anxiety and gradual exposure
 topics: social anxiety, shyness, avoidance, exposure
+keywords: shy, parties, scared of people, judged, avoid people, awkward, talking to people
 ---
 ## How it keeps going
 Social anxiety is a strong fear of being judged or embarrassed. Avoiding situations brings short-term relief but confirms the belief that the situations are dangerous. Spotting small "safety behaviours", like rehearsing every sentence or avoiding eye contact, helps too, since they stop you from learning that you can cope without them.

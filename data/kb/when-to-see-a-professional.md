@@ -1,6 +1,7 @@
 ---
 title: When and how to see a mental health professional
 topics: professional help, therapy, psychiatrist, psychologist, counselling
+keywords: therapist, psychiatrist, psychologist, counsellor, therapy, affordable, cost, doctor
 ---
 ## Signs it is time
 Symptoms last more than a couple of weeks, they interfere with study, work or relationships, you are using alcohol or other substances to cope, you have physical symptoms with no clear cause, or you have thoughts of harming yourself. You do not need to be in crisis to ask for help.

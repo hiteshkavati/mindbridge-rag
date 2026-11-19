@@ -1,6 +1,7 @@
 ---
 title: Challenging negative thoughts with a thought record
 topics: anxiety, low mood, self-esteem, thinking traps
+keywords: negative thoughts, failure, challenge thoughts, cognitive distortions, cbt, catastrophising, self-talk
 ---
 ## Thoughts are not facts
 When we are stressed, the mind produces fast, harsh interpretations. A thought record, a basic tool from cognitive behavioural therapy, slows that down so you can test the thought instead of just believing it.

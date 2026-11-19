@@ -1,6 +1,7 @@
 ---
 title: What to do during a panic attack
 topics: panic, anxiety, physical symptoms
+keywords: heart racing, dying, can't breathe, chest tight, sudden fear, attack, dizzy
 ---
 ## What a panic attack feels like
 A sudden surge of fear with a pounding heart, chest tightness, shortness of breath, sweating, trembling, dizziness, tingling hands, and often a belief that you are dying or losing control. It usually peaks within about ten minutes and then fades, even though it feels endless while it lasts.

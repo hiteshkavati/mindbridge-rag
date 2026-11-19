@@ -1,6 +1,7 @@
 ---
 title: Burnout: signs and a way back
 topics: work, stress, burnout, exhaustion
+keywords: dread work, exhausted, numb, fed up, job stress, overworked, tired of work
 ---
 ## What it looks like
 Burnout is usually described as three things together: deep exhaustion that rest does not fix, growing cynicism or detachment from work, and a feeling that you are no longer effective at it. You may dread Monday, snap at colleagues, or feel nothing about work that once mattered to you.

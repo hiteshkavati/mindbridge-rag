@@ -1,6 +1,7 @@
 ---
 title: Coping with grief and loss
 topics: grief, loss, bereavement
+keywords: death, died, passed away, lost someone, mourning, bereaved, funeral, miss them
 ---
 ## There is no schedule
 Grief does not move in neat stages. It tends to come in waves, with good hours followed by sudden pain triggered by a song, a smell or a date. Reactions include numbness, anger, guilt, tiredness, trouble concentrating and changes in appetite or sleep. All of these are common.

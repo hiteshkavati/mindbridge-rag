@@ -1,6 +1,7 @@
 ---
 title: Rumination versus problem solving
 topics: overthinking, rumination, replaying, worry
+keywords: replaying, overthinking, embarrassing, same thought, stuck in my head, dwelling
 ---
 ## Spotting the difference
 Problem solving asks "what can I do next?" and ends in an action. Rumination asks "why did this happen to me?" or "what is wrong with me?" and goes round in circles. After ten minutes of rumination you usually feel worse and no closer to an answer.

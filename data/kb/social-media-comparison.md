@@ -1,6 +1,7 @@
 ---
 title: Comparison and social media
 topics: social media, comparison, envy, linkedin, self-worth
+keywords: instagram, linkedin, comparing, jealous, envy, everyone else, scrolling, feel behind
 ---
 ## Why it stings
 Social feeds show other people's highlights next to your behind-the-scenes. Promotions, new offers and holidays get posted; rejections, doubts and bad weeks do not. Comparing your whole life with their best moments is not a fair test.

@@ -1,6 +1,7 @@
 ---
 title: Family pressure about career, marriage and expectations
 topics: family, pressure, expectations, parents, career
+keywords: parents, marriage, arranged, pressure, relatives, cousins, compare, society, career choice, elders
 ---
 ## Two things at once
 Pressure from parents or relatives is often a mix of care, worry and social comparison. You can respect the care without accepting every demand. Separating the concern underneath ("they worry about my security") from the specific demand ("take this exact job") makes it easier to respond.

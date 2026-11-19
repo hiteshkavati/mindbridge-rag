@@ -15,6 +15,7 @@ class Doc:
     title: str
     topics: tuple[str, ...]
     body: str
+    keywords: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -25,14 +26,21 @@ class Chunk:
     topics: tuple[str, ...]
     section: str
     text: str
+    keywords: tuple[str, ...] = ()
 
     @property
     def index_text(self) -> str:
-        return f"{self.title}. {', '.join(self.topics)}. {self.section}. {self.text}"
+        # keywords are the phrases people actually type, which the prose does not always use
+        extra = ", ".join((*self.topics, *self.keywords))
+        return f"{self.title}. {extra}. {self.section}. {self.text}"
 
 
 _FRONT_MATTER = re.compile(r"\A---\n(.*?)\n---\n(.*)\Z", re.S)
 _HEADING = re.compile(r"^## +(.+)$", re.M)
+
+
+def _csv(value: str) -> tuple[str, ...]:
+    return tuple(part.strip() for part in value.split(",") if part.strip())
 
 
 def parse_doc(path: Path) -> Doc:
@@ -49,8 +57,15 @@ def parse_doc(path: Path) -> Doc:
         meta[key.strip()] = value.strip()
     if not meta.get("title"):
         raise KBError(f"{path.name}: title is required")
-    topics = tuple(t.strip() for t in meta.get("topics", "").split(",") if t.strip())
-    return Doc(id=path.stem, title=meta["title"], topics=topics, body=match.group(2).strip())
+    topics = _csv(meta.get("topics", ""))
+    keywords = _csv(meta.get("keywords", ""))
+    return Doc(
+        id=path.stem,
+        title=meta["title"],
+        topics=topics,
+        body=match.group(2).strip(),
+        keywords=keywords,
+    )
 
 
 def load_docs(kb_dir: Path | str) -> list[Doc]:
@@ -97,6 +112,7 @@ def chunk_doc(doc: Doc, max_words: int = 110) -> list[Chunk]:
                     topics=doc.topics,
                     section=heading,
                     text=piece,
+                    keywords=doc.keywords,
                 )
             )
     return chunks
