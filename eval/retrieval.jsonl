@@ -1,0 +1,84 @@
+{"split": "dev", "query": "what can I do right now to calm down when my thoughts are spiralling", "relevant": ["grounding-5-4-3-2-1", "slow-breathing"]}
+{"split": "test", "query": "name things you can see and hear to stop feeling panicky", "relevant": ["grounding-5-4-3-2-1"]}
+{"split": "dev", "query": "breathing exercise for anxiety, my chest feels tight", "relevant": ["slow-breathing", "panic-attack-what-to-do"]}
+{"split": "test", "query": "should I hold my breath in box breathing? it makes me uncomfortable", "relevant": ["slow-breathing"]}
+{"split": "dev", "query": "sudden fear, heart racing, I thought I was dying", "relevant": ["panic-attack-what-to-do"]}
+{"split": "test", "query": "how long does a panic attack last and what should I do", "relevant": ["panic-attack-what-to-do"]}
+{"split": "dev", "query": "I worry about everything all day and can't switch it off", "relevant": ["worry-time", "rumination-vs-problem-solving"]}
+{"split": "test", "query": "is there a technique to postpone worrying until later", "relevant": ["worry-time"]}
+{"split": "dev", "query": "my brain says I'm a failure after one mistake, how do I challenge that", "relevant": ["thought-record-reframing", "self-compassion"]}
+{"split": "test", "query": "what are common cognitive distortions like catastrophising", "relevant": ["thought-record-reframing"]}
+{"split": "dev", "query": "I have no motivation to do anything and it's making me feel worse", "relevant": ["behavioural-activation", "low-mood-when-to-seek-help"]}
+{"split": "test", "query": "how do I get moving when I feel low and unmotivated", "relevant": ["behavioural-activation"]}
+{"split": "dev", "query": "I've felt down for two weeks and lost interest in things, is that normal", "relevant": ["low-mood-when-to-seek-help"]}
+{"split": "test", "query": "how do I know if my sadness is something I should see a doctor about", "relevant": ["low-mood-when-to-seek-help", "when-to-see-a-professional"]}
+{"split": "dev", "query": "tips to fix my sleep schedule", "relevant": ["sleep-hygiene"]}
+{"split": "test", "query": "does coffee in the evening affect my sleep", "relevant": ["sleep-hygiene"]}
+{"split": "dev", "query": "my mind won't switch off when I lie in bed", "relevant": ["racing-thoughts-at-night"]}
+{"split": "test", "query": "I lie awake replaying the day, what helps", "relevant": ["racing-thoughts-at-night", "rumination-vs-problem-solving"]}
+{"split": "dev", "query": "I dread going to work and feel numb about my job", "relevant": ["burnout-signs-and-recovery"]}
+{"split": "test", "query": "signs I'm burnt out rather than just tired", "relevant": ["burnout-signs-and-recovery"]}
+{"split": "dev", "query": "how do I say no to my manager without sounding lazy", "relevant": ["boundaries-at-work"]}
+{"split": "test", "query": "my team messages me at 11pm and I feel I must reply", "relevant": ["boundaries-at-work"]}
+{"split": "dev", "query": "I keep getting rejected after interviews and I'm losing confidence", "relevant": ["job-search-stress"]}
+{"split": "test", "query": "job hunting is stressing me out and I feel behind everyone", "relevant": ["job-search-stress", "social-media-comparison"]}
+{"split": "dev", "query": "my mind goes blank during exams", "relevant": ["exam-anxiety"]}
+{"split": "test", "query": "how do I handle nerves before my semester exam", "relevant": ["exam-anxiety"]}
+{"split": "dev", "query": "I keep putting off my project and then feel guilty", "relevant": ["overwhelm-and-procrastination"]}
+{"split": "test", "query": "too many tasks, I freeze and don't know where to start", "relevant": ["overwhelm-and-procrastination"]}
+{"split": "dev", "query": "I moved to a new city and I have no friends here", "relevant": ["loneliness-and-reconnecting"]}
+{"split": "test", "query": "I feel isolated, how do I make friends as an adult", "relevant": ["loneliness-and-reconnecting"]}
+{"split": "dev", "query": "I avoid parties because I'm scared people will judge me", "relevant": ["social-anxiety-gradual-exposure"]}
+{"split": "test", "query": "how can I slowly get comfortable talking to people", "relevant": ["social-anxiety-gradual-exposure"]}
+{"split": "dev", "query": "my grandfather died last month and I can't focus on anything", "relevant": ["grief-and-loss"]}
+{"split": "test", "query": "how long does grief last", "relevant": ["grief-and-loss"]}
+{"split": "dev", "query": "my girlfriend and I keep fighting about the same things", "relevant": ["conflict-communication"]}
+{"split": "test", "query": "how to talk to my partner about a problem without it turning into an argument", "relevant": ["conflict-communication"]}
+{"split": "dev", "query": "my parents keep pushing me about marriage and my career", "relevant": ["family-expectations"]}
+{"split": "test", "query": "my family compares me with my cousins and it hurts", "relevant": ["family-expectations"]}
+{"split": "dev", "query": "I lose my temper over small things", "relevant": ["anger-and-pausing"]}
+{"split": "test", "query": "how do I stop snapping at people when I'm irritated", "relevant": ["anger-and-pausing"]}
+{"split": "dev", "query": "I'm very hard on myself when I make mistakes", "relevant": ["self-compassion", "perfectionism"]}
+{"split": "test", "query": "my inner critic never shuts up", "relevant": ["self-compassion"]}
+{"split": "dev", "query": "my friend seems really depressed, how can I help", "relevant": ["supporting-a-friend"]}
+{"split": "test", "query": "what should I say to someone who is struggling", "relevant": ["supporting-a-friend"]}
+{"split": "dev", "query": "technique to release muscle tension and relax my body", "relevant": ["progressive-muscle-relaxation"]}
+{"split": "test", "query": "tensing and relaxing muscles one by one for stress", "relevant": ["progressive-muscle-relaxation"]}
+{"split": "dev", "query": "should I see a psychiatrist or a psychologist", "relevant": ["when-to-see-a-professional"]}
+{"split": "test", "query": "how do I find affordable therapy in India", "relevant": ["when-to-see-a-professional"]}
+{"split": "dev", "query": "I keep replaying an embarrassing moment over and over", "relevant": ["rumination-vs-problem-solving"]}
+{"split": "test", "query": "what is the difference between thinking things through and overthinking", "relevant": ["rumination-vs-problem-solving"]}
+{"split": "dev", "query": "scrolling linkedin makes me feel like everyone is doing better than me", "relevant": ["social-media-comparison"]}
+{"split": "test", "query": "instagram makes me feel bad about my life", "relevant": ["social-media-comparison"]}
+{"split": "dev", "query": "I can't submit anything until it's perfect", "relevant": ["perfectionism"]}
+{"split": "test", "query": "I'm afraid to fail so I over-polish everything", "relevant": ["perfectionism"]}
+{"split": "dev", "query": "simple daily habits to feel better when my energy is low", "relevant": ["self-care-basics"]}
+{"split": "test", "query": "does exercise or sunlight really help with mood", "relevant": ["self-care-basics"]}
+{"split": "dev", "query": "are you a real therapist", "relevant": ["about-this-assistant"]}
+{"split": "test", "query": "is my conversation with you private", "relevant": ["about-this-assistant"]}
+{"split": "dev", "query": "my hands shake before presentations", "relevant": ["performance-anxiety-presentations"]}
+{"split": "test", "query": "tips for staying calm in a job interview", "relevant": ["performance-anxiety-presentations", "job-search-stress"]}
+{"split": "dev", "query": "best biryani recipe", "relevant": []}
+{"split": "dev", "query": "who won the cricket match yesterday", "relevant": []}
+{"split": "dev", "query": "write a python function to sort a list", "relevant": []}
+{"split": "dev", "query": "how do I file income tax returns", "relevant": []}
+{"split": "dev", "query": "what is the weather in Bangalore today", "relevant": []}
+{"split": "dev", "query": "price of gold today", "relevant": []}
+{"split": "dev", "query": "how to learn guitar chords quickly", "relevant": []}
+{"split": "dev", "query": "latest iphone launch date", "relevant": []}
+{"split": "dev", "query": "solve this quadratic equation for me", "relevant": []}
+{"split": "dev", "query": "how to book a train ticket online", "relevant": []}
+{"split": "dev", "query": "recommend a good laptop for coding", "relevant": []}
+{"split": "dev", "query": "stock price of infosys", "relevant": []}
+{"split": "test", "query": "explain how quantum computing works", "relevant": []}
+{"split": "test", "query": "how to install windows 11", "relevant": []}
+{"split": "test", "query": "what is the capital of Australia", "relevant": []}
+{"split": "test", "query": "translate good morning into Japanese", "relevant": []}
+{"split": "test", "query": "which phone should I buy under 20000", "relevant": []}
+{"split": "test", "query": "how many calories are in a banana", "relevant": []}
+{"split": "test", "query": "how do I make a pivot table in excel", "relevant": []}
+{"split": "test", "query": "tell me a joke", "relevant": []}
+{"split": "test", "query": "who is the prime minister of japan", "relevant": []}
+{"split": "test", "query": "how to change a flat tire", "relevant": []}
+{"split": "test", "query": "best way to learn rust programming", "relevant": []}
+{"split": "test", "query": "what time does the metro close", "relevant": []}
