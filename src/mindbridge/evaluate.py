@@ -161,13 +161,18 @@ def render_markdown(res: dict) -> str:
         "## Retrieval (document level)",
         "",
         "Queries are hand-written in everyday phrasing and labelled with the document(s) that "
-        "should answer them. `hit@k` is the share of queries with a relevant document in the top k.",
+        "should answer them. `hit@k` is the share of queries with a relevant document in the "
+        "top k.",
         "",
     ]
     for split in ("dev", "test"):
         n = res["retrieval"][split]["hybrid"]["n"]
-        out += [f"### {split} ({n} queries)", "", "| retriever | hit@1 | hit@3 | hit@5 | MRR@10 |",
-                "|---|---|---|---|---|"]
+        out += [
+            f"### {split} ({n} queries)",
+            "",
+            "| retriever | hit@1 | hit@3 | hit@5 | MRR@10 |",
+            "|---|---|---|---|---|",
+        ]
         for mode in MODES:
             m = res["retrieval"][split][mode]
             out.append(
@@ -177,7 +182,10 @@ def render_markdown(res: dict) -> str:
         out.append("")
 
     out += ["## Out-of-scope handling", ""]
-    out += ["| split | coverage cutoff | in-scope answered | out-of-scope declined |", "|---|---|---|---|"]
+    out += [
+        "| split | coverage cutoff | in-scope answered | out-of-scope declined |",
+        "|---|---|---|---|",
+    ]
     for split in ("dev", "test"):
         s = res["scope"][split]
         out.append(
@@ -185,8 +193,11 @@ def render_markdown(res: dict) -> str:
             f"({s['n_in']}) | {_pct(s['out_of_scope_rejected'])} ({s['n_out']}) |"
         )
     out += ["", "## Crisis detection", ""]
-    out += ["| split | HIGH recall | HIGH precision | ELEVATED recall | any-risk recall | "
-            "false flags on neutral text |", "|---|---|---|---|---|---|"]
+    out += [
+        "| split | HIGH recall | HIGH precision | ELEVATED recall | any-risk recall | "
+        "false flags on neutral text |",
+        "|---|---|---|---|---|---|",
+    ]
     for split in ("dev", "test"):
         s = res["safety"][split]
         out.append(
@@ -199,7 +210,7 @@ def render_markdown(res: dict) -> str:
         misses = res["safety"][split]["misses"]
         if misses:
             out += [f"Misclassified in {split}:", ""]
-            out += [f"- expected `{e}`, got `{g}`: \"{t}\"" for e, g, t in misses]
+            out += [f'- expected `{e}`, got `{g}`: "{t}"' for e, g, t in misses]
             out.append("")
     out += [
         "## Caveats",
