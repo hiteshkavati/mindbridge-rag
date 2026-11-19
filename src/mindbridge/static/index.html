@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MindBridge</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>MindBridge</h1>
+    <p>Practical ideas for stress, sleep, mood, work and relationships. It is not a therapist
+       and not a crisis service.</p>
+  </header>
+
+  <main>
+    <section id="auth" hidden>
+      <h2 id="auth-title">Sign in</h2>
+      <form id="auth-form" autocomplete="on">
+        <label>Username <input id="username" name="username" autocomplete="username" required></label>
+        <label>Password <input id="password" name="password" type="password" minlength="10"
+               autocomplete="current-password" required></label>
+        <p id="auth-error" role="alert"></p>
+        <button type="submit" id="auth-submit">Sign in</button>
+        <button type="button" id="auth-toggle" class="link">Create an account</button>
+      </form>
+    </section>
+
+    <section id="chat" hidden>
+      <div id="log" aria-live="polite"></div>
+      <form id="composer">
+        <textarea id="input" rows="2" maxlength="2000" placeholder="What is on your mind?"
+                  aria-label="Message"></textarea>
+        <button type="submit" id="send">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p id="helplines">In an emergency call 112.</p>
+    <p><button type="button" id="reset" class="link" hidden>Clear this conversation</button></p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
