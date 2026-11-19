@@ -114,7 +114,7 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
     Rule(
         "overdose",
         _r(
-            r"\b(?:took|taken|swallowed) (?:too many|a lot of|all (?:my|the|of the)) "
+            r"\b(?:took|taken|swallowed) (?:too many|a lot of|a bunch of|a handful of|all (?:my|the|of the)) "
             r"(?:pills|tablets|medication|meds)\b[^.!?]{0,30}\b(?:on purpose|deliberately|to die|to end)\b"
             r"|\boverdos(?:ed|ing|e) on purpose\b"
         ),
@@ -144,6 +144,7 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
         _r(
             r"\b(?:don'?t|do not|no longer) want to (?:be here|be alive|exist|wake up|go on|live)\b"
             r"(?! (?:in|with|near|at|there|alone|on|here at))"
+            r"(?![^.!?]{0,40}\b(?:boring|lecture|class|meeting|office|party|wedding|event|work)\b)"
         ),
         E,
         neg_ok=True,
@@ -207,6 +208,48 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
         _r(
             r"\bi(?:'m| am|'ve been| have been| feel| am feeling|'m feeling)? (?:feeling )?suicidal\b"
             r"|\bthinking (?:about|of) suicide\b|\bsuicidal (?:thoughts|feelings|ideation)\b"
+        ),
+        E,
+    ),
+    Rule(
+        "suicide-plan",
+        _r(
+            r"\b(?:suicid\w*|kill myself|end (?:it all|my life))\b[^.!?]{0,60}"
+            r"\b(?:i have a plan|have a plan|got a plan|tonight|today|right now)\b"
+            r"|\bknow how i(?:'ll| will) (?:do it|end it)\b"
+        ),
+        H,
+        neg_ok=True,
+    ),
+    Rule(
+        "tired-of-living",
+        _r(
+            r"\b(?:tired|sick) of being alive\b|\bcan'?t (?:take|stand|handle) (?:being alive|living)\b"
+        ),
+        E,
+    ),
+    Rule(
+        "wish-accident",
+        _r(
+            r"\bwish (?:a|that a|something) \w+(?: \w+)? (?:would|could) (?:hit|run over|kill) me\b"
+            r"|\bhope i (?:die|don'?t wake up)\b"
+        ),
+        E,
+    ),
+    Rule(
+        "happier-without",
+        _r(
+            r"\b(?:everyone|everybody|people|my family|they)(?: \w+){0,3} "
+            r"(?:would be|'d be|will be) (?:happier|better off|relieved)(?: \w+){0,2} "
+            r"if i (?:wasn'?t|weren'?t|was gone|were gone|died|disappeared)\b"
+        ),
+        E,
+        neg_ok=True,
+    ),
+    Rule(
+        "not-around",
+        _r(
+            r"\bthoughts? (?:about|of) (?:not being (?:around|here|alive)|disappearing|not existing)\b"
         ),
         E,
     ),

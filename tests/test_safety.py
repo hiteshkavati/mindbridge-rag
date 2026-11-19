@@ -117,3 +117,31 @@ def test_labelled_set_has_no_missed_high_risk_cases():
         metrics = ev.safety_metrics([r for r in rows if r["split"] == split])
         assert metrics["recall_high"] == 1.0, metrics["misses"]
         assert metrics["false_flag_rate"] <= 0.1, metrics["misses"]
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "I'm thinking about suicide seriously and I have a plan",
+        "I don't want to live anymore and I know how I'll do it",
+        "I took a bunch of pills deliberately and I'm scared",
+    ],
+)
+def test_plan_and_overdose_phrasings_are_high(text):
+    assert assess(text).level == Level.HIGH
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "I'm tired of being alive",
+        "everyone would be happier if I wasn't around",
+        "I sometimes wish a car would hit me and it would all be over",
+    ],
+)
+def test_passive_ideation_phrasings_are_elevated(text):
+    assert assess(text).level == Level.ELEVATED
+
+
+def test_boredom_is_not_flagged():
+    assert assess("I don't want to be here, this lecture is so boring").level == Level.NONE
