@@ -24,7 +24,9 @@ class Hit:
     bm25: float
 
 
-def rrf(rankings: Sequence[Sequence[int]], weights: Sequence[float], k: int = 60) -> dict[int, float]:
+def rrf(
+    rankings: Sequence[Sequence[int]], weights: Sequence[float], k: int = 60
+) -> dict[int, float]:
     """Reciprocal rank fusion. Each ranking is a list of item ids, best first."""
     fused: dict[int, float] = defaultdict(float)
     for ranking, weight in zip(rankings, weights, strict=True):

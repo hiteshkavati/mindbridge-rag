@@ -106,7 +106,9 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
     ),
     Rule(
         "note",
-        _r(r"\b(?:wrote|writing|written|leaving|left|made)(?: \w+){0,3} (?:goodbye|suicide|farewell) (?:note|letter|message)\b"),
+        _r(
+            r"\b(?:wrote|writing|written|leaving|left|made)(?: \w+){0,3} (?:goodbye|suicide|farewell) (?:note|letter|message)\b"
+        ),
         H,
     ),
     Rule(
@@ -154,7 +156,12 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
         ),
         E,
     ),
-    Rule("never-wake", _r(r"\b(?:never|not) (?:to )?wake up\b(?! (?:late|early|on time))"), E, neg_ok=True),
+    Rule(
+        "never-wake",
+        _r(r"\b(?:never|not) (?:to )?wake up\b(?! (?:late|early|on time))"),
+        E,
+        neg_ok=True,
+    ),
     Rule(
         "no-point",
         _r(
@@ -167,7 +174,9 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
     ),
     Rule(
         "burden",
-        _r(r"\bburden (?:to|on) (?:everyone|everybody|my family|my parents|others|them|all|people)\b"),
+        _r(
+            r"\bburden (?:to|on) (?:everyone|everybody|my family|my parents|others|them|all|people)\b"
+        ),
         E,
     ),
     Rule(
@@ -208,7 +217,9 @@ FIRST_PERSON_RULES: tuple[Rule, ...] = (
 THIRD_PARTY_RULES: tuple[Rule, ...] = (
     Rule(
         "other-self-harm",
-        _r(r"\b(?:kill|hurt|harm|end)(?:ing)? (?:himself|herself|themselves|themself|(?:his|her|their) (?:own )?life)\b"),
+        _r(
+            r"\b(?:kill|hurt|harm|end)(?:ing)? (?:himself|herself|themselves|themself|(?:his|her|their) (?:own )?life)\b"
+        ),
         E,
     ),
     Rule("other-take-life", _r(r"\btak(?:e|ing) (?:his|her|their) (?:own )?life\b"), E),
@@ -270,7 +281,7 @@ def _assess_sentence(sent: str) -> tuple[Level, bool, list[str]]:
             continue
         lvl = rule.level
         if not rule.neg_ok and _negated(sent, match.start()):
-            if _CONTRAST.search(sent[match.end():]):
+            if _CONTRAST.search(sent[match.end() :]):
                 lvl = Level.ELEVATED  # "I don't want to hurt myself but ..."
             else:
                 continue
@@ -330,9 +341,7 @@ _FALLBACK = Helplines(
 def load_helplines(path: Path | str | None) -> Helplines:
     try:
         data = json.loads(Path(path).read_text(encoding="utf-8"))  # type: ignore[arg-type]
-        lines = tuple(
-            Helpline(x["name"], tuple(x["numbers"]), x["hours"]) for x in data["lines"]
-        )
+        lines = tuple(Helpline(x["name"], tuple(x["numbers"]), x["hours"]) for x in data["lines"])
         return Helplines(data["emergency"]["number"], lines)
     except (OSError, ValueError, KeyError, TypeError):
         return _FALLBACK
@@ -346,9 +355,7 @@ def crisis_response(helplines: Helplines) -> str:
         f"please call {helplines.emergency_number} now or go to the nearest emergency room.\n\n"
         "You don't have to be sure about anything to reach out. These lines are free to call "
         "and are staffed by trained people:\n"
-        + "\n".join(
-            f"- {h.name}: {' or '.join(h.numbers)} ({h.hours})" for h in helplines.lines
-        )
+        + "\n".join(f"- {h.name}: {' or '.join(h.numbers)} ({h.hours})" for h in helplines.lines)
         + "\n\nIf you can, tell someone near you that you are not okay and ask them to stay with "
         "you for now. If there is anything within reach that you could use to hurt yourself, "
         "try to put some distance between you and it.\n\n"

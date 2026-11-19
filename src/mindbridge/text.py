@@ -12,7 +12,15 @@ STOPWORDS = frozenset(
     too ill""".split()
 )
 
-_SUFFIXES = (("ies", "y"), ("sses", "ss"), ("ing", ""), ("edly", ""), ("ed", ""), ("ly", ""), ("s", ""))
+_SUFFIXES = (
+    ("ies", "y"),
+    ("sses", "ss"),
+    ("ing", ""),
+    ("edly", ""),
+    ("ed", ""),
+    ("ly", ""),
+    ("s", ""),
+)
 
 
 def stem(word: str) -> str:
