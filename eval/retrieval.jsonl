@@ -82,3 +82,41 @@
 {"split": "test", "query": "how to change a flat tire", "relevant": []}
 {"split": "test", "query": "best way to learn rust programming", "relevant": []}
 {"split": "test", "query": "what time does the metro close", "relevant": []}
+{"split": "holdout", "query": "I'm spinning out and need something quick to bring me back to the room", "relevant": ["grounding-5-4-3-2-1", "slow-breathing"]}
+{"split": "holdout", "query": "is there a breathing pattern that helps when I'm tense", "relevant": ["slow-breathing"]}
+{"split": "holdout", "query": "I suddenly couldn't catch my breath at the mall and thought something was seriously wrong", "relevant": ["panic-attack-what-to-do"]}
+{"split": "holdout", "query": "what if I set aside a fixed slot each day just for fretting", "relevant": ["worry-time"]}
+{"split": "holdout", "query": "how do I write down a distressing thought and test whether it is true", "relevant": ["thought-record-reframing"]}
+{"split": "holdout", "query": "does doing small activities when I don't feel like it actually help gloomy moods", "relevant": ["behavioural-activation"]}
+{"split": "holdout", "query": "I've been flat for a few weeks and nothing seems enjoyable, who should I talk to", "relevant": ["low-mood-when-to-seek-help", "when-to-see-a-professional"]}
+{"split": "holdout", "query": "how many hours before bed should I stop caffeine and screens", "relevant": ["sleep-hygiene"]}
+{"split": "holdout", "query": "thoughts keep looping when the lights go off", "relevant": ["racing-thoughts-at-night"]}
+{"split": "holdout", "query": "work has drained everything out of me and I don't care anymore", "relevant": ["burnout-signs-and-recovery"]}
+{"split": "holdout", "query": "how do I politely decline extra assignments from my lead", "relevant": ["boundaries-at-work"]}
+{"split": "holdout", "query": "months of applications with no callbacks, how do I keep going", "relevant": ["job-search-stress"]}
+{"split": "holdout", "query": "I freeze in the exam hall even though I studied", "relevant": ["exam-anxiety"]}
+{"split": "holdout", "query": "my to-do list is huge and I just scroll my phone instead", "relevant": ["overwhelm-and-procrastination"]}
+{"split": "holdout", "query": "relocated for work and my weekends are completely empty", "relevant": ["loneliness-and-reconnecting"]}
+{"split": "holdout", "query": "talking to strangers makes my stomach drop, how do I practise gradually", "relevant": ["social-anxiety-gradual-exposure"]}
+{"split": "holdout", "query": "lost my mother in the summer and some days I can barely function", "relevant": ["grief-and-loss"]}
+{"split": "holdout", "query": "what is a calmer way of raising issues with my spouse", "relevant": ["conflict-communication"]}
+{"split": "holdout", "query": "uncles and aunts keep questioning my life choices at functions", "relevant": ["family-expectations"]}
+{"split": "holdout", "query": "I explode at my roommates and then regret it", "relevant": ["anger-and-pausing"]}
+{"split": "holdout", "query": "why am I so cruel to myself after every slip", "relevant": ["self-compassion"]}
+{"split": "holdout", "query": "a colleague has stopped talking to anyone and seems very low, how do I approach them", "relevant": ["supporting-a-friend"]}
+{"split": "holdout", "query": "guided method of squeezing each muscle group and then letting go", "relevant": ["progressive-muscle-relaxation"]}
+{"split": "holdout", "query": "what is the difference between a counsellor and a clinical psychologist", "relevant": ["when-to-see-a-professional"]}
+{"split": "holdout", "query": "I analyse conversations for hours afterwards, how do I stop", "relevant": ["rumination-vs-problem-solving"]}
+{"split": "holdout", "query": "seeing friends' success online leaves me feeling like a failure", "relevant": ["social-media-comparison"]}
+{"split": "holdout", "query": "I keep tweaking my work because it never feels good enough", "relevant": ["perfectionism"]}
+{"split": "holdout", "query": "what small daily things help when I have no energy", "relevant": ["self-care-basics"]}
+{"split": "holdout", "query": "do you store what I type", "relevant": ["about-this-assistant"]}
+{"split": "holdout", "query": "how to stop shaking during a client demo", "relevant": ["performance-anxiety-presentations"]}
+{"split": "holdout", "query": "how do I reset my wifi router", "relevant": []}
+{"split": "holdout", "query": "recipe for chicken curry", "relevant": []}
+{"split": "holdout", "query": "who is the cricket captain of India", "relevant": []}
+{"split": "holdout", "query": "convert 50 dollars to rupees", "relevant": []}
+{"split": "holdout", "query": "best time to visit Goa", "relevant": []}
+{"split": "holdout", "query": "explain blockchain in simple terms", "relevant": []}
+{"split": "holdout", "query": "how do I add a table of contents in word", "relevant": []}
+{"split": "holdout", "query": "what is the speed of light", "relevant": []}

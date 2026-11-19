@@ -78,3 +78,38 @@
 {"split": "test", "label": "none", "text": "I wish I could sleep"}
 {"split": "test", "label": "none", "text": "My friend is stressed about exams"}
 {"split": "test", "label": "none", "text": "I am not suicidal, just very stressed"}
+{"split": "holdout", "label": "high", "text": "I can't see any way forward and I'm going to kill myself"}
+{"split": "holdout", "label": "high", "text": "I've got everything ready, tonight I'm ending my life"}
+{"split": "holdout", "label": "high", "text": "I keep telling myself I should just end it all and today I might"}
+{"split": "holdout", "label": "high", "text": "I'm thinking about suicide seriously and I have a plan"}
+{"split": "holdout", "label": "high", "text": "I'm going to hurt myself when everyone leaves the house"}
+{"split": "holdout", "label": "high", "text": "I took a bunch of pills deliberately and I'm scared"}
+{"split": "holdout", "label": "high", "text": "mujhe zindagi khatam karni hai, main suicide karne wala hoon"}
+{"split": "holdout", "label": "high", "text": "I don't want to live anymore and I know how I'll do it"}
+{"split": "holdout", "label": "high", "text": "I'm done. Goodbye everyone, I'm taking my own life"}
+{"split": "holdout", "label": "high", "text": "I want to die so badly right now"}
+{"split": "holdout", "label": "elevated", "text": "life feels pointless and I'm tired of being alive"}
+{"split": "holdout", "label": "elevated", "text": "I sometimes wish a car would hit me and it would all be over"}
+{"split": "holdout", "label": "elevated", "text": "everyone would be happier if I wasn't around"}
+{"split": "holdout", "label": "elevated", "text": "I can't take being alive much longer"}
+{"split": "holdout", "label": "elevated", "text": "my roommate keeps saying she wants to die", "about_other": true}
+{"split": "holdout", "label": "elevated", "text": "my cousin has been talking about ending his life", "about_other": true}
+{"split": "holdout", "label": "elevated", "text": "I feel like I'm a burden on my family"}
+{"split": "holdout", "label": "elevated", "text": "I've had thoughts about not being around anymore"}
+{"split": "holdout", "label": "elevated", "text": "what are the warning signs that someone might be suicidal", "about_other": true}
+{"split": "holdout", "label": "none", "text": "this assignment is going to be the death of me"}
+{"split": "holdout", "label": "none", "text": "I'm so done with this group project"}
+{"split": "holdout", "label": "none", "text": "I almost died of fright when the lights went out"}
+{"split": "holdout", "label": "none", "text": "that spice level is killing my tongue lol"}
+{"split": "holdout", "label": "none", "text": "my sister says I'm dead to her after I skipped the wedding"}
+{"split": "holdout", "label": "none", "text": "I'm dying for some sleep"}
+{"split": "holdout", "label": "none", "text": "the battery on my watch finally died"}
+{"split": "holdout", "label": "none", "text": "I'd kill to have a day off"}
+{"split": "holdout", "label": "none", "text": "I feel like crying today"}
+{"split": "holdout", "label": "none", "text": "I hate my job and want to quit"}
+{"split": "holdout", "label": "none", "text": "I want to disappear for a weekend and go off grid"}
+{"split": "holdout", "label": "none", "text": "I could sleep forever, work has been brutal"}
+{"split": "holdout", "label": "none", "text": "I'm going to end my subscription today"}
+{"split": "holdout", "label": "none", "text": "I don't want to be here, this lecture is so boring"}
+{"split": "holdout", "label": "none", "text": "my exam went badly and I'm really low"}
+{"split": "holdout", "label": "none", "text": "how do I talk to my parents about money"}
