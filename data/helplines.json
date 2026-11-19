@@ -1,0 +1,22 @@
+{
+  "last_verified": "2026-11-20",
+  "region": "IN",
+  "emergency": {
+    "name": "Emergency services",
+    "number": "112"
+  },
+  "lines": [
+    {
+      "name": "Tele-MANAS",
+      "numbers": ["14416", "1-800-891-4416"],
+      "hours": "24x7, free, many languages",
+      "source": "https://dghs.mohfw.gov.in/national-mental-health-programme.php"
+    },
+    {
+      "name": "iCall (TISS)",
+      "numbers": ["9152987821"],
+      "hours": "Mon-Sat, 10 AM to 8 PM",
+      "source": "https://icallhelpline.org/"
+    }
+  ]
+}
